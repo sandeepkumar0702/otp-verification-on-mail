@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form method="POST" action="send" style="margin-left:400px;">
+            <p>
+                <label for="email">Send to:</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <button type="submit">send otp</button>
+            </p>
+        </form>
+        <form method="POST" action="verify" style="margin-left:400px;">
+           
+            <p>
+                <label for="otp">Enter otp</label>
+                <input type="text" name="otp" required>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+            
+        </form>
+</body>
+</html>
